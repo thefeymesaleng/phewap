@@ -57,6 +57,7 @@ def setup_mode():
 
 def application_mode():
     # TODO: add app logic here
+    #
     print("Entering application mode.")
     onboard_led = machine.Pin("LED", machine.Pin.OUT)
 
